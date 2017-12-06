@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16260F631FD781FD000C8344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16260F621FD781FD000C8344 /* main.m */; };
+		16260F661FD781FD000C8344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16260F651FD781FD000C8344 /* AppDelegate.m */; };
+		16260F691FD781FD000C8344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16260F681FD781FD000C8344 /* ViewController.m */; };
+		16260F6C1FD781FD000C8344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16260F6A1FD781FD000C8344 /* Main.storyboard */; };
+		16260F6E1FD781FD000C8344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16260F6D1FD781FD000C8344 /* Assets.xcassets */; };
+		16260F711FD781FD000C8344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16260F6F1FD781FD000C8344 /* LaunchScreen.storyboard */; };
+		16260F7C1FD781FD000C8344 /* LXOrderConfirmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16260F7B1FD781FD000C8344 /* LXOrderConfirmTests.m */; };
+		16260F871FD781FD000C8344 /* LXOrderConfirmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16260F861FD781FD000C8344 /* LXOrderConfirmUITests.m */; };
+		16260F971FD78332000C8344 /* LXOrderConfirmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16260F961FD78332000C8344 /* LXOrderConfirmController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16260F781FD781FD000C8344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16260F561FD781FD000C8344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16260F5D1FD781FD000C8344;
+			remoteInfo = LXOrderConfirm;
+		};
+		16260F831FD781FD000C8344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16260F561FD781FD000C8344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16260F5D1FD781FD000C8344;
+			remoteInfo = LXOrderConfirm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16260F5E1FD781FD000C8344 /* LXOrderConfirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXOrderConfirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16260F621FD781FD000C8344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16260F641FD781FD000C8344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16260F651FD781FD000C8344 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16260F671FD781FD000C8344 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16260F681FD781FD000C8344 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16260F6B1FD781FD000C8344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16260F6D1FD781FD000C8344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16260F701FD781FD000C8344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16260F721FD781FD000C8344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16260F771FD781FD000C8344 /* LXOrderConfirmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXOrderConfirmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16260F7B1FD781FD000C8344 /* LXOrderConfirmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXOrderConfirmTests.m; sourceTree = "<group>"; };
+		16260F7D1FD781FD000C8344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16260F821FD781FD000C8344 /* LXOrderConfirmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXOrderConfirmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16260F861FD781FD000C8344 /* LXOrderConfirmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXOrderConfirmUITests.m; sourceTree = "<group>"; };
+		16260F881FD781FD000C8344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16260F951FD78332000C8344 /* LXOrderConfirmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXOrderConfirmController.h; sourceTree = "<group>"; };
+		16260F961FD78332000C8344 /* LXOrderConfirmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOrderConfirmController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16260F5B1FD781FD000C8344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16260F741FD781FD000C8344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16260F7F1FD781FD000C8344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16260F551FD781FD000C8344 = {
+			isa = PBXGroup;
+			children = (
+				16260F601FD781FD000C8344 /* LXOrderConfirm */,
+				16260F7A1FD781FD000C8344 /* LXOrderConfirmTests */,
+				16260F851FD781FD000C8344 /* LXOrderConfirmUITests */,
+				16260F5F1FD781FD000C8344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16260F5F1FD781FD000C8344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16260F5E1FD781FD000C8344 /* LXOrderConfirm.app */,
+				16260F771FD781FD000C8344 /* LXOrderConfirmTests.xctest */,
+				16260F821FD781FD000C8344 /* LXOrderConfirmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16260F601FD781FD000C8344 /* LXOrderConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				16260F941FD782D1000C8344 /* Classes */,
+				16260F641FD781FD000C8344 /* AppDelegate.h */,
+				16260F651FD781FD000C8344 /* AppDelegate.m */,
+				16260F671FD781FD000C8344 /* ViewController.h */,
+				16260F681FD781FD000C8344 /* ViewController.m */,
+				16260F6A1FD781FD000C8344 /* Main.storyboard */,
+				16260F6D1FD781FD000C8344 /* Assets.xcassets */,
+				16260F6F1FD781FD000C8344 /* LaunchScreen.storyboard */,
+				16260F721FD781FD000C8344 /* Info.plist */,
+				16260F611FD781FD000C8344 /* Supporting Files */,
+			);
+			path = LXOrderConfirm;
+			sourceTree = "<group>";
+		};
+		16260F611FD781FD000C8344 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16260F621FD781FD000C8344 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16260F7A1FD781FD000C8344 /* LXOrderConfirmTests */ = {
+			isa = PBXGroup;
+			children = (
+				16260F7B1FD781FD000C8344 /* LXOrderConfirmTests.m */,
+				16260F7D1FD781FD000C8344 /* Info.plist */,
+			);
+			path = LXOrderConfirmTests;
+			sourceTree = "<group>";
+		};
+		16260F851FD781FD000C8344 /* LXOrderConfirmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16260F861FD781FD000C8344 /* LXOrderConfirmUITests.m */,
+				16260F881FD781FD000C8344 /* Info.plist */,
+			);
+			path = LXOrderConfirmUITests;
+			sourceTree = "<group>";
+		};
+		16260F941FD782D1000C8344 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16260F951FD78332000C8344 /* LXOrderConfirmController.h */,
+				16260F961FD78332000C8344 /* LXOrderConfirmController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16260F5D1FD781FD000C8344 /* LXOrderConfirm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16260F8B1FD781FD000C8344 /* Build configuration list for PBXNativeTarget "LXOrderConfirm" */;
+			buildPhases = (
+				16260F5A1FD781FD000C8344 /* Sources */,
+				16260F5B1FD781FD000C8344 /* Frameworks */,
+				16260F5C1FD781FD000C8344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXOrderConfirm;
+			productName = LXOrderConfirm;
+			productReference = 16260F5E1FD781FD000C8344 /* LXOrderConfirm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16260F761FD781FD000C8344 /* LXOrderConfirmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16260F8E1FD781FD000C8344 /* Build configuration list for PBXNativeTarget "LXOrderConfirmTests" */;
+			buildPhases = (
+				16260F731FD781FD000C8344 /* Sources */,
+				16260F741FD781FD000C8344 /* Frameworks */,
+				16260F751FD781FD000C8344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16260F791FD781FD000C8344 /* PBXTargetDependency */,
+			);
+			name = LXOrderConfirmTests;
+			productName = LXOrderConfirmTests;
+			productReference = 16260F771FD781FD000C8344 /* LXOrderConfirmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16260F811FD781FD000C8344 /* LXOrderConfirmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16260F911FD781FD000C8344 /* Build configuration list for PBXNativeTarget "LXOrderConfirmUITests" */;
+			buildPhases = (
+				16260F7E1FD781FD000C8344 /* Sources */,
+				16260F7F1FD781FD000C8344 /* Frameworks */,
+				16260F801FD781FD000C8344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16260F841FD781FD000C8344 /* PBXTargetDependency */,
+			);
+			name = LXOrderConfirmUITests;
+			productName = LXOrderConfirmUITests;
+			productReference = 16260F821FD781FD000C8344 /* LXOrderConfirmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16260F561FD781FD000C8344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KinRain;
+				TargetAttributes = {
+					16260F5D1FD781FD000C8344 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					16260F761FD781FD000C8344 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16260F5D1FD781FD000C8344;
+					};
+					16260F811FD781FD000C8344 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16260F5D1FD781FD000C8344;
+					};
+				};
+			};
+			buildConfigurationList = 16260F591FD781FD000C8344 /* Build configuration list for PBXProject "LXOrderConfirm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16260F551FD781FD000C8344;
+			productRefGroup = 16260F5F1FD781FD000C8344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16260F5D1FD781FD000C8344 /* LXOrderConfirm */,
+				16260F761FD781FD000C8344 /* LXOrderConfirmTests */,
+				16260F811FD781FD000C8344 /* LXOrderConfirmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16260F5C1FD781FD000C8344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16260F711FD781FD000C8344 /* LaunchScreen.storyboard in Resources */,
+				16260F6E1FD781FD000C8344 /* Assets.xcassets in Resources */,
+				16260F6C1FD781FD000C8344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16260F751FD781FD000C8344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16260F801FD781FD000C8344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16260F5A1FD781FD000C8344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16260F691FD781FD000C8344 /* ViewController.m in Sources */,
+				16260F661FD781FD000C8344 /* AppDelegate.m in Sources */,
+				16260F631FD781FD000C8344 /* main.m in Sources */,
+				16260F971FD78332000C8344 /* LXOrderConfirmController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16260F731FD781FD000C8344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16260F7C1FD781FD000C8344 /* LXOrderConfirmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16260F7E1FD781FD000C8344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16260F871FD781FD000C8344 /* LXOrderConfirmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16260F791FD781FD000C8344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16260F5D1FD781FD000C8344 /* LXOrderConfirm */;
+			targetProxy = 16260F781FD781FD000C8344 /* PBXContainerItemProxy */;
+		};
+		16260F841FD781FD000C8344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16260F5D1FD781FD000C8344 /* LXOrderConfirm */;
+			targetProxy = 16260F831FD781FD000C8344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16260F6A1FD781FD000C8344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16260F6B1FD781FD000C8344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16260F6F1FD781FD000C8344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16260F701FD781FD000C8344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16260F891FD781FD000C8344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16260F8A1FD781FD000C8344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16260F8C1FD781FD000C8344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXOrderConfirm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXOrderConfirm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16260F8D1FD781FD000C8344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXOrderConfirm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXOrderConfirm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16260F8F1FD781FD000C8344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXOrderConfirmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXOrderConfirmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXOrderConfirm.app/LXOrderConfirm";
+			};
+			name = Debug;
+		};
+		16260F901FD781FD000C8344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXOrderConfirmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXOrderConfirmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXOrderConfirm.app/LXOrderConfirm";
+			};
+			name = Release;
+		};
+		16260F921FD781FD000C8344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXOrderConfirmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXOrderConfirmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXOrderConfirm;
+			};
+			name = Debug;
+		};
+		16260F931FD781FD000C8344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXOrderConfirmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXOrderConfirmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXOrderConfirm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16260F591FD781FD000C8344 /* Build configuration list for PBXProject "LXOrderConfirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16260F891FD781FD000C8344 /* Debug */,
+				16260F8A1FD781FD000C8344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16260F8B1FD781FD000C8344 /* Build configuration list for PBXNativeTarget "LXOrderConfirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16260F8C1FD781FD000C8344 /* Debug */,
+				16260F8D1FD781FD000C8344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16260F8E1FD781FD000C8344 /* Build configuration list for PBXNativeTarget "LXOrderConfirmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16260F8F1FD781FD000C8344 /* Debug */,
+				16260F901FD781FD000C8344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16260F911FD781FD000C8344 /* Build configuration list for PBXNativeTarget "LXOrderConfirmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16260F921FD781FD000C8344 /* Debug */,
+				16260F931FD781FD000C8344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16260F561FD781FD000C8344 /* Project object */;
+}
