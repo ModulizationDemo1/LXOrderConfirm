@@ -12,7 +12,8 @@ s.homepage     = "https://github.com/ModulizationDemo1/LXOrderConfirm.git"
 s.license      = "MIT"                #开源协议
 s.author             = { "linyi31" => "linyi@jd.com" }
 
-s.source       = { :git => "https://github.com/ModulizationDemo1/LXOrderConfirm.git", :tag => version }
+#s.source       = { :git => "https://github.com/ModulizationDemo1/LXOrderConfirm.git", :tag => version }
+s.source       = { :git => "https://github.com/ModulizationDemo1/LXOrderConfirm.git", :tag => s.version.to_s }
 
 s.platform     = :ios, "8.0"          #支持的平台及版本
 s.requires_arc = true                 #是否使用ARC
