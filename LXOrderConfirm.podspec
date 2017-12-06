@@ -21,7 +21,7 @@ s.source       = { :git => "https://github.com/ModulizationDemo1/LXOrderConfirm.
 s.platform     = :ios, "8.0"          #支持的平台及版本
 s.requires_arc = true                 #是否使用ARC
 
-s.source_files  = "LXOrderConfirm/LXOrderConfirm/**/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+s.source_files  = "LXOrderConfirm/**/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
 
 # s.dependency "JSONKit", "~> 1.4"    #依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
 
